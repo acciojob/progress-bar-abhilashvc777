@@ -1,6 +1,6 @@
 //your JS code here. If required.
 const div = document.querySelector(".div")
-const cir1 = div.querySelectorAll(".circle")
+const cir1 = document.getElementsByClassName(".circle")
 // const cir2 = div.querySelector("#circle-1")
 // const cir3 = div.querySelector("#circle-2")
 // const cir4 = div.querySelector("#circle-3")

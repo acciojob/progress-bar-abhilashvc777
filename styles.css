@@ -3,7 +3,6 @@
 	height:200px;
 	display:flex;
 	justify-content:space-around;
-	gap:10px;
 }
 .circle{
 	/* border:1px solid yellow; */
@@ -27,4 +26,17 @@ button{
 	width:20%;
 	border-radius:50%;
 	border:2px solid;
+}
+.pBar{
+	/* border:1px solid red; */
+	width:40px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+}
+.line{
+	border:1px solid black
+}
+.line1{
+	border:none;
 }

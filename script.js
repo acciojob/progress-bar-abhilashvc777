@@ -3,10 +3,12 @@ const div = document.querySelector(".div")
 const cir1 = div.querySelectorAll(".circle")
 const prevBtn = document.querySelector("#prev")
 const nextBtn = document.querySelector("#next")
+const line = document.querySelectorAll(".line1")
 prevBtn.disabled = true
 cir1[0].classList = "active"
 let i = 0;
 nextBtn.addEventListener("click",()=>{
+	line[i].classList = "line"
 	i++
 	cir1[i].classList = "active"
 	prevBtn.disabled = false
@@ -21,6 +23,7 @@ prevBtn.addEventListener("click",()=>{
 		prevBtn.disabled = true
 	}
 	i--
+	line[i].classList = "line1"
 })
 
 

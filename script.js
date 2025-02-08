@@ -6,7 +6,7 @@ const nextBtn = document.querySelector("#next")
 const line = document.querySelectorAll(".line1")
 prevBtn.disabled = true
 cir1[0].className = "active"
-let i = 0;
+let i
 nextBtn.addEventListener("click",()=>{
 	line[i].className = "line"
 	i++

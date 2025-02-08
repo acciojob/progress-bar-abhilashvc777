@@ -1,1 +1,30 @@
 /*  your css code here. If applicable */
+.div{
+	height:200px;
+	display:flex;
+	justify-content:space-around;
+	gap:10px;
+}
+.circle{
+	/* border:1px solid yellow; */
+	width:20%;
+	border-radius:50%;
+	background-color:blue;
+}
+.btnDiv{
+	margin-top:20px;
+	text-align:center;
+}	
+button{
+	padding:12px 30px;
+	border:none;
+	margin-left:10px;
+	cursor:pointer;
+	background-color:pink;
+}
+.active{
+	background-color:pink;
+	width:20%;
+	border-radius:50%;
+	border:2px solid;
+}
